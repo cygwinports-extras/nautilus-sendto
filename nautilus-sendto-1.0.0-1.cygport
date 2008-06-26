@@ -1,0 +1,3 @@
+inherit gnome2
+
+DESCRIPTION="Nautilus extension to send files to other applications"

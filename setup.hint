@@ -1,0 +1,4 @@
+category: Gnome
+requires: cygwin evolution-data-server GConf2 gdk-pixbuf2 glib2 gtk2-x11 libdbus-glib_1_2 libglade2 libintl8 libpurple nautilus pango
+sdesc: "Nautilus extension to send files to other applications."
+ldesc: "Nautilus extension to send files to other applications."
