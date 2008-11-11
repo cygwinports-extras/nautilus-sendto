@@ -6,30 +6,30 @@ Runtime requirements:
   cygwin-1.5.25-15
   evolution-data-server-2.22.2-1
   GConf2-2.22.0-1
-  gdk-pixbuf2-2.12.10-1
-  glib2-2.16.3-1
-  gtk2-x11-2.12.10-1
-  libdbus-glib_1_2-0.74-1
-  libglade2-2.6.2-1
-  libintl8-0.15-1
-  libpurple-2.4.2-1
-  nautilus-2.22.3-1
-  pango-1.20.3-1
+  gdk-pixbuf2-2.12.12-1
+  glib2-2.16.6-1
+  gtk2-x11-2.12.12-1
+  libdbus-glib_1_2-0.76-1
+  libglade2-2.6.3-1
+  libintl8-0.17-2
+  libpurple0-2.5.0-1
+  nautilus-2.22.5.1-1
+  pango-1.20.5-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.61-1
+  autoconf2.5-2.63-1
   automake1.10-1.10.1-1
-  binutils-20080523-1
-  cygport-0.3.11-1
+  binutils-20080624-2
+  cygport-0.4.2-1
   gawk-3.1.6-1
   gcc-core-3.4.4-3
-  gettext-devel-0.15-1
+  gettext-devel-0.17-2
   gnome-common-2.20.0-2
-  intltool-0.37.1-1
-  libtool-2.2.2-2
+  intltool-0.40.5-1
+  libtool-2.2.6a-1
   make-3.81-1
-  pkg-config-0.21-1
+  pkg-config-0.23a-2
   sed-4.1.5-2
 
 Canonical website:
@@ -41,15 +41,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack nautilus-sendto-1.0.0-X-src.tar.bz2
+  unpack nautilus-sendto-1.1.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./nautilus-sendto-1.0.0-X.cygport all
+  cygport ./nautilus-sendto-1.1.0-X.cygport all
 
 This will create:
-  /usr/src/nautilus-sendto-1.0.0-X-src.tar.bz2
-  /usr/src/nautilus-sendto-1.0.0-X.tar.bz2
+  /usr/src/nautilus-sendto-1.1.0-X-src.tar.bz2
+  /usr/src/nautilus-sendto-1.1.0-X.tar.bz2
 
 -------------------------------------------
 
@@ -73,10 +73,10 @@ Files included in the binary package:
   /usr/lib/nautilus/extensions-2.0/libnautilus-sendto.la
   /usr/lib/pidgin/nautilus.dll
   /usr/lib/pidgin/nautilus.la
-  /usr/share/doc/nautilus-sendto-1.0.0/AUTHORS
-  /usr/share/doc/nautilus-sendto-1.0.0/COPYING
-  /usr/share/doc/nautilus-sendto-1.0.0/ChangeLog
-  /usr/share/doc/nautilus-sendto-1.0.0/NEWS
+  /usr/share/doc/nautilus-sendto-1.1.0/AUTHORS
+  /usr/share/doc/nautilus-sendto-1.1.0/COPYING
+  /usr/share/doc/nautilus-sendto-1.1.0/ChangeLog
+  /usr/share/doc/nautilus-sendto-1.1.0/NEWS
   /usr/share/locale/ar/LC_MESSAGES/nautilus-sendto.mo
   /usr/share/locale/be/LC_MESSAGES/nautilus-sendto.mo
   /usr/share/locale/be@latin/LC_MESSAGES/nautilus-sendto.mo
@@ -130,6 +130,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 1.1.0-1 -----
+Version bump.
 
 ----- version 1.0.0-1 -----
 Initial release for Cygwin.

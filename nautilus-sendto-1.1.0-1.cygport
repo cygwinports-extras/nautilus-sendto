@@ -1,3 +1,5 @@
 inherit gnome2
 
 DESCRIPTION="Nautilus extension to send files to other applications"
+
+PATCH_URI="1.0.0-no-undefined.patch"
