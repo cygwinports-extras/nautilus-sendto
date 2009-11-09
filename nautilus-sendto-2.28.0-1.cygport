@@ -1,0 +1,6 @@
+inherit gnome2
+
+DESCRIPTION="Nautilus extension to send files to other applications"
+
+CYGCONF_ARGS="--with-plugins=evolution,pidgin,removable-devices"
+MAKEOPTS+=" LDFLAGS=-no-undefined LIBS=\$(NAUTILUS_SENDTO_LIBS)"
