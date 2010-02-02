@@ -2,5 +2,6 @@ inherit gnome2
 
 DESCRIPTION="Nautilus extension to send files to other applications"
 
+PATCH_URI="2.28.2-no-undefined.patch"
+
 CYGCONF_ARGS="--with-plugins=evolution,pidgin,removable-devices"
-MAKEOPTS+=" LDFLAGS=-no-undefined LIBS=\$(NAUTILUS_SENDTO_LIBS)"
