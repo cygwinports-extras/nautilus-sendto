@@ -1,0 +1,30 @@
+--- origsrc/nautilus-sendto-2.28.4/src/plugins/gajim/Makefile.am	2010-01-21 09:14:08.000000000 -0600
++++ src/nautilus-sendto-2.28.4/src/plugins/gajim/Makefile.am	2010-06-16 21:35:23.813580800 -0500
+@@ -13,6 +13,6 @@ INCLUDES =
+ plugin_LTLIBRARIES = libnstgajim.la
+ 
+ libnstgajim_la_SOURCES = gajim.c
+-libnstgajim_la_LDFLAGS = -module -avoid-version
++libnstgajim_la_LDFLAGS = -module -avoid-version -no-undefined
+ libnstgajim_la_LIBADD = $(DBUS_LIBS) $(NAUTILUS_SENDTO_LIBS)
+ 
+--- origsrc/nautilus-sendto-2.28.4/src/plugins/pidgin/Makefile.am	2010-01-21 09:14:08.000000000 -0600
++++ src/nautilus-sendto-2.28.4/src/plugins/pidgin/Makefile.am	2010-06-16 21:29:34.937626300 -0500
+@@ -15,6 +15,6 @@ INCLUDES =
+ plugin_LTLIBRARIES = libnstpidgin.la
+ 
+ libnstpidgin_la_SOURCES = pidgin.c
+-libnstpidgin_la_LDFLAGS = -module -avoid-version
++libnstpidgin_la_LDFLAGS = -module -avoid-version -no-undefined
+ libnstpidgin_la_LIBADD = $(PIDGIN_LIBS) $(NAUTILUS_SENDTO_LIBS)
+ 
+--- origsrc/nautilus-sendto-2.28.4/src/plugins/removable-devices/Makefile.am	2010-01-21 09:14:08.000000000 -0600
++++ src/nautilus-sendto-2.28.4/src/plugins/removable-devices/Makefile.am	2010-06-16 21:29:39.970914100 -0500
+@@ -14,6 +14,6 @@ INCLUDES =
+ plugin_LTLIBRARIES = libnstremovable_devices.la
+ 
+ libnstremovable_devices_la_SOURCES = removable-devices.c
+-libnstremovable_devices_la_LDFLAGS = -module -avoid-version
++libnstremovable_devices_la_LDFLAGS = -module -avoid-version -no-undefined
+ libnstremovable_devices_la_LIBADD = $(GIO_LIBS) $(NAUTILUS_SENDTO_LIBS) $(builddir)/../libnstcommon.la
+ 
