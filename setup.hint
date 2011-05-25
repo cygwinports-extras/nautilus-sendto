@@ -1,4 +1,4 @@
 category: Gnome
-requires: libdbus-glib_1_2 libgdk_pixbuf2.0_0 libglib2.0_0 libgtk2.0_0 libintl8 nautilus
+requires: libdbus-glib_1_2 libgdk_pixbuf2.0_0 libglib2.0_0 libgtk3_0 libintl8 nautilus
 sdesc: "Nautilus extension to send files to other applications."
 ldesc: "Nautilus extension to send files to other applications."
