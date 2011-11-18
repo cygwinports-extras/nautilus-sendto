@@ -1,3 +1,14 @@
+--- origsrc/nautilus-sendto-3.0.1/src/plugins/evolution/Makefile.am	2011-09-26 04:34:43.000000000 -0500
++++ src/nautilus-sendto-3.0.1/src/plugins/evolution/Makefile.am	2011-11-17 14:47:18.721085700 -0600
+@@ -27,7 +27,7 @@ regenerate-built-sources:
+ plugin_LTLIBRARIES = libnstevolution.la
+ 
+ libnstevolution_la_SOURCES = evolution.c $(CLA_FILES) $(MARSHALFILES)
+-libnstevolution_la_LDFLAGS = -module -avoid-version
++libnstevolution_la_LDFLAGS = -module -avoid-version -no-undefined
+ libnstevolution_la_LIBADD = $(NST_EBOOK_LIBS) $(NAUTILUS_SENDTO_LIBS)
+ 
+ EXTRA_DIST = $(CLA_FILES)
 --- origsrc/nautilus-sendto-2.28.4/src/plugins/gajim/Makefile.am	2010-01-21 09:14:08.000000000 -0600
 +++ src/nautilus-sendto-2.28.4/src/plugins/gajim/Makefile.am	2010-06-16 21:35:23.813580800 -0500
 @@ -13,6 +13,6 @@ INCLUDES =
