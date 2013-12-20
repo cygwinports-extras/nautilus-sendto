@@ -1,7 +1,7 @@
 inherit gnome2
 
 NAME="nautilus-sendto"
-VERSION=3.8.0
+VERSION=3.8.1
 RELEASE=1
 CATEGORY="GNOME"
 SUMMARY="Nautilus extension to send files by email"
